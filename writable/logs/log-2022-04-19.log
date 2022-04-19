@@ -1,0 +1,95 @@
+ERROR - 2022-04-19 09:47:57 --> Unknown column 'cogigo_editorial' in 'field list'
+ERROR - 2022-04-19 09:53:27 --> Unknown column 'cogigo_editorial' in 'field list'
+ERROR - 2022-04-19 10:03:01 --> Unknown column 'cogigo_editorial' in 'field list'
+ERROR - 2022-04-19 10:03:04 --> Unknown column 'cogigo_editorial' in 'field list'
+ERROR - 2022-04-19 10:03:05 --> Unknown column 'cogigo_editorial' in 'field list'
+ERROR - 2022-04-19 10:03:05 --> Unknown column 'cogigo_editorial' in 'field list'
+ERROR - 2022-04-19 10:03:06 --> Unknown column 'cogigo_editorial' in 'field list'
+CRITICAL - 2022-04-19 10:15:17 --> Undefined variable $Empleados
+#0 C:\xampp\htdocs\Actividad_Codelgniter\app\Views\estados\estado.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\Actividad_Codelgniter\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Actividad_Codelgniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Actividad_Codelgniter\system\Common.php(1089): CodeIgniter\View\View->render('estados/estado', Array, true)
+#4 C:\xampp\htdocs\Actividad_Codelgniter\app\Controllers\Estados.php(13): view('estados/estado', Array)
+#5 C:\xampp\htdocs\Actividad_Codelgniter\system\CodeIgniter.php(832): App\Controllers\Estados->cargarEstados()
+#6 C:\xampp\htdocs\Actividad_Codelgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estados))
+#7 C:\xampp\htdocs\Actividad_Codelgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Actividad_Codelgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-19 10:16:07 --> Undefined array key "codigo_empleado"
+#0 C:\xampp\htdocs\Actividad_Codelgniter\app\Views\estados\estado.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\Actividad_Codelgniter\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Actividad_Codelgniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Actividad_Codelgniter\system\Common.php(1089): CodeIgniter\View\View->render('estados/estado', Array, true)
+#4 C:\xampp\htdocs\Actividad_Codelgniter\app\Controllers\Estados.php(13): view('estados/estado', Array)
+#5 C:\xampp\htdocs\Actividad_Codelgniter\system\CodeIgniter.php(832): App\Controllers\Estados->cargarEstados()
+#6 C:\xampp\htdocs\Actividad_Codelgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estados))
+#7 C:\xampp\htdocs\Actividad_Codelgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Actividad_Codelgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-19 10:16:27 --> Undefined array key "codigo_empleado"
+#0 C:\xampp\htdocs\Actividad_Codelgniter\app\Views\estados\estado.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\Actividad_Codelgniter\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Actividad_Codelgniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Actividad_Codelgniter\system\Common.php(1089): CodeIgniter\View\View->render('estados/estado', Array, true)
+#4 C:\xampp\htdocs\Actividad_Codelgniter\app\Controllers\Estados.php(13): view('estados/estado', Array)
+#5 C:\xampp\htdocs\Actividad_Codelgniter\system\CodeIgniter.php(832): App\Controllers\Estados->cargarEstados()
+#6 C:\xampp\htdocs\Actividad_Codelgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estados))
+#7 C:\xampp\htdocs\Actividad_Codelgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Actividad_Codelgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-19 10:30:06 --> Undefined variable $Estados
+#0 C:\xampp\htdocs\Actividad_Codelgniter\app\Views\estados\estado.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\Actividad_Codelgniter\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Actividad_Codelgniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Actividad_Codelgniter\system\Common.php(1089): CodeIgniter\View\View->render('estados/estado', Array, true)
+#4 C:\xampp\htdocs\Actividad_Codelgniter\app\Controllers\Libros.php(13): view('estados/estado', Array)
+#5 C:\xampp\htdocs\Actividad_Codelgniter\system\CodeIgniter.php(832): App\Controllers\Libros->cargarEstados()
+#6 C:\xampp\htdocs\Actividad_Codelgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#7 C:\xampp\htdocs\Actividad_Codelgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Actividad_Codelgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-19 10:31:57 --> Undefined variable $Estados
+#0 C:\xampp\htdocs\Actividad_Codelgniter\app\Views\estados\estado.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\Actividad_Codelgniter\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Actividad_Codelgniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Actividad_Codelgniter\system\Common.php(1089): CodeIgniter\View\View->render('estados/estado', Array, true)
+#4 C:\xampp\htdocs\Actividad_Codelgniter\app\Controllers\Libros.php(13): view('estados/estado', Array)
+#5 C:\xampp\htdocs\Actividad_Codelgniter\system\CodeIgniter.php(832): App\Controllers\Libros->cargarLibros()
+#6 C:\xampp\htdocs\Actividad_Codelgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#7 C:\xampp\htdocs\Actividad_Codelgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Actividad_Codelgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-19 10:32:46 --> Undefined variable $Estados
+#0 C:\xampp\htdocs\Actividad_Codelgniter\app\Views\estados\estado.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\Actividad_Codelgniter\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Actividad_Codelgniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Actividad_Codelgniter\system\Common.php(1089): CodeIgniter\View\View->render('estados/estado', Array, true)
+#4 C:\xampp\htdocs\Actividad_Codelgniter\app\Controllers\Libros.php(13): view('estados/estado', Array)
+#5 C:\xampp\htdocs\Actividad_Codelgniter\system\CodeIgniter.php(832): App\Controllers\Libros->cargarLibros()
+#6 C:\xampp\htdocs\Actividad_Codelgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#7 C:\xampp\htdocs\Actividad_Codelgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Actividad_Codelgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-19 10:41:18 --> Undefined variable $Libros
+#0 C:\xampp\htdocs\Actividad_Codelgniter\app\Views\prestamos\prestamo.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41)
+#1 C:\xampp\htdocs\Actividad_Codelgniter\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Actividad_Codelgniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Actividad_Codelgniter\system\Common.php(1089): CodeIgniter\View\View->render('prestamos/prest...', Array, true)
+#4 C:\xampp\htdocs\Actividad_Codelgniter\app\Controllers\Prestamos.php(13): view('prestamos/prest...', Array)
+#5 C:\xampp\htdocs\Actividad_Codelgniter\system\CodeIgniter.php(832): App\Controllers\Prestamos->cargarPrestamos()
+#6 C:\xampp\htdocs\Actividad_Codelgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+#7 C:\xampp\htdocs\Actividad_Codelgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Actividad_Codelgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-19 10:58:13 --> Undefined variable $Estados
+#0 C:\xampp\htdocs\Actividad_Codelgniter\app\Views\grados\grado.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\Actividad_Codelgniter\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Actividad_Codelgniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Actividad_Codelgniter\system\Common.php(1089): CodeIgniter\View\View->render('grados/grado', Array, true)
+#4 C:\xampp\htdocs\Actividad_Codelgniter\app\Controllers\Grados.php(13): view('grados/grado', Array)
+#5 C:\xampp\htdocs\Actividad_Codelgniter\system\CodeIgniter.php(832): App\Controllers\Grados->cargarGrados()
+#6 C:\xampp\htdocs\Actividad_Codelgniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grados))
+#7 C:\xampp\htdocs\Actividad_Codelgniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Actividad_Codelgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
